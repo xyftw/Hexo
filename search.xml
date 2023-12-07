@@ -3,7 +3,7 @@
   <entry>
     <title>LeetCode 2023/12 每日一題 (Dec LeetCoding Challenge)</title>
     <url>/posts/LC_23Dec/</url>
-    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為中文站(LCCN)，第2題為英文站(LCUS)，題目連結皆統一為英文站的。<br>
+    <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為<em>中文站(LCCN)</em>，第2題為<em>英文站(LCUS)</em>，題目連結皆統一為英文站的。<br>
 <mark class="hl-label green">Easy</mark> 、<mark class="hl-label orange">Medium</mark> 、<mark class="hl-label red">Hard</mark>  難度的題目分別用🟢🟡🔴表示。<br>
 若為周賽題目會額外標註由 <code>zreotrac</code> 計算的rating分數。</p>
 </div>
