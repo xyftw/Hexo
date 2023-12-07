@@ -296,6 +296,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 <h3 id="題意-17">題意</h3>
 <h3 id="思路-4">思路</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="寫在最後">寫在最後</h1>
 <hr>
 <div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>瞧瞧你發現了什麼？你看，是一串魔法咒語！</p>
 </div>
