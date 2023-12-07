@@ -296,8 +296,8 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 <h3 id="題意-17">題意</h3>
 <h3 id="思路-4">思路</h3>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="寫在最後">寫在最後</h1>
 <hr>
+<h1 id="寫在最後">寫在最後</h1>
 <div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>瞧瞧你發現了什麼？你看，是一串魔法咒語！</p>
 </div>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">(masterpiece, best quality), 1girl, solo, cowboy_shot Musician, Musical attire, Recording studio, Composing music, Performing live, playing guitar, Collaborating with other musicians, gotou1, gotou1, gotou hitori, solo, skirt, pink jacket, track jacket, bangs, hair between eyes, long sleeves,&lt;lora:gotou_hitori_v1:0.800000&gt;</span><br><span class="line">Negative prompt: (worst quality, low quality:1.4), negative_hand-neg, EasynegativeV2, bad-artist-anime, verybadimagenegative_v1.3, bad_prompt_version2</span><br><span class="line">Steps: 30, Sampler: DPM++ 2M Karras, CFG scale: 8.0, Seed: 416831509, Size: 960x540, Model: CamelliaMix_V3: 1757182f367d&quot;, TI hashes: &quot;negative_hand-neg, EasyNegativeV2, bad-artist-anime, verybadimagenegative_v1.3, bad_prompt_version2&quot;, Version: v1.6.0.109-2-gd1c0272</span><br></pre></td></tr></table></figure><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
