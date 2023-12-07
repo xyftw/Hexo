@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gdst.dev/posts/LC_W374/</loc>
+    <loc>https://gdst.dev/posts/CF_1899/</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/CF_1899/</loc>
+    <loc>https://gdst.dev/posts/CF_1903/</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/posts/CF_1903/</loc>
+    <loc>https://gdst.dev/posts/LC_W374/</loc>
     
     <lastmod>2023-12-07</lastmod>
     
@@ -131,6 +131,13 @@
   </url>
   
   <url>
+    <loc>https://gdst.dev/tags/LeetCode/</loc>
+    <lastmod>2023-12-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/tags/Codeforces/</loc>
     <lastmod>2023-12-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -139,13 +146,6 @@
   
   <url>
     <loc>https://gdst.dev/tags/codeforces/</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/LeetCode/</loc>
     <lastmod>2023-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -161,7 +161,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/Algo/Codeforces/</loc>
+    <loc>https://gdst.dev/categories/Algo/LeetCode/</loc>
     <lastmod>2023-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -175,14 +175,14 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/Algo/codeforces/</loc>
+    <loc>https://gdst.dev/categories/Algo/Codeforces/</loc>
     <lastmod>2023-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://gdst.dev/categories/Algo/LeetCode/</loc>
+    <loc>https://gdst.dev/categories/Algo/codeforces/</loc>
     <lastmod>2023-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
