@@ -309,6 +309,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
         <tag>Algo</tag>
         <tag>Python</tag>
         <tag>LeetCode</tag>
+        <tag>每日一題</tag>
       </tags>
   </entry>
   <entry>
