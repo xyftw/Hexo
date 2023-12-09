@@ -333,7 +333,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 <h3 id="題意-18">題意</h3>
 <p>給定一個Binary Tree的樹根 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi><mi>o</mi><mi>o</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">root</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">roo</span><span class="mord mathnormal">t</span></span></span></span> ，返回其Inorder Traversal的結果。</p>
 <h3 id="思路-3">思路</h3>
-<p>&lt;++&gt;</p>
+<p>就是DFS的中序遍歷，先遍歷左子樹，再遍歷根節點，最後遍歷右子樹。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">inorderTraversal</span>(<span class="params">self, root: <span class="type">Optional</span>[TreeNode]</span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        ans = []</span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">inorder</span>(<span class="params">root</span>):</span><br><span class="line">            <span class="keyword">if</span> root:</span><br><span class="line">                inorder(root.left)</span><br><span class="line">                ans.append(root.val)</span><br><span class="line">                inorder(root.right)</span><br><span class="line">        inorder(root)</span><br><span class="line">        <span class="keyword">return</span> ans</span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="2023-12-0">2023-12-0</h1>
@@ -788,6 +788,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
         <tag>Algo</tag>
         <tag>Python</tag>
         <tag>LeetCode</tag>
+        <tag>週賽</tag>
       </tags>
   </entry>
   <entry>
