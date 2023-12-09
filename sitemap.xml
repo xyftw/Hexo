@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gdst.dev/posts/AT_ABC315/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/AT_ABC317/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/AT_ABC331/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/CF_1899/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/CF_1903/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/CF_1907/</loc>
+    
+    <lastmod>2023-12-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://gdst.dev/posts/LC_23Nov/</loc>
     
     <lastmod>2023-12-09</lastmod>
@@ -41,60 +95,6 @@
     <loc>https://gdst.dev/posts/LC_B119/</loc>
     
     <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/CF_1907/</loc>
-    
-    <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/AT_ABC331/</loc>
-    
-    <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/AT_ABC317/</loc>
-    
-    <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/AT_ABC315/</loc>
-    
-    <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/CF_1899/</loc>
-    
-    <lastmod>2023-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/CF_1903/</loc>
-    
-    <lastmod>2023-12-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
