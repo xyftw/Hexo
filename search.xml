@@ -360,6 +360,54 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
       </tags>
   </entry>
   <entry>
+    <title>LeetCode Biweekly Contest 119 題解</title>
+    <url>/posts/LC_B119/</url>
+    <content><![CDATA[<div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>這次11分鐘寫完前三題，第四題寫完Floyd-Warshall想了很久怎麼選點，沒注意到n = 10，把所有可能暴力一遍就能過了 …</p>
+</div>
+<div class="note info simple flat"><p>All problems solved by <code>python3</code></p>
+</div>
+<p>🟢🟡🔴</p>
+<h2 id="Q1-🟢-2956-Find-Common-Elements-Between-Two-Arrays">Q1. 🟢 <a href="https://leetcode.com/contest/biweekly-contest-119/problems/find-common-elements-between-two-arrays/">2956. Find Common Elements Between Two Arrays</a></h2>
+<h3 id="題意">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路：計數">思路：計數</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">findIntersectionValues</span>(<span class="params">self, nums1: <span class="type">List</span>[<span class="built_in">int</span>], nums2: <span class="type">List</span>[<span class="built_in">int</span>]</span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        cnt1 = Counter(nums1)</span><br><span class="line">        cnt2 = Counter(nums2)</span><br><span class="line">        res1 = res2 = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> n1 <span class="keyword">in</span> nums1:</span><br><span class="line">            <span class="keyword">if</span> n1 <span class="keyword">in</span> cnt2:</span><br><span class="line">                res1 += <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> n2 <span class="keyword">in</span> nums2:</span><br><span class="line">            <span class="keyword">if</span> n2 <span class="keyword">in</span> cnt1:</span><br><span class="line">                res2 += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> [res1, res2]</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q2-🟡-2957-Remove-Adjacent-Almost-Equal-Characters">Q2. 🟡 <a href="https://leetcode.com/contest/biweekly-contest-119/problems/remove-adjacent-almost-equal-characters/">2957. Remove Adjacent Almost-Equal Characters</a></h2>
+<h3 id="題意-2">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路：分組討論">思路：分組討論</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">removeAlmostEqualCharacters</span>(<span class="params">self, word: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        n = <span class="built_in">len</span>(word)</span><br><span class="line">        ans = <span class="number">0</span></span><br><span class="line">        i = <span class="number">0</span></span><br><span class="line">        <span class="keyword">while</span> i &lt; n:</span><br><span class="line">            st = i</span><br><span class="line">            <span class="keyword">while</span> i + <span class="number">1</span> &lt; n <span class="keyword">and</span> <span class="built_in">abs</span>(<span class="built_in">ord</span>(word[i]) - <span class="built_in">ord</span>(word[i + <span class="number">1</span>])) &lt;= <span class="number">1</span>:</span><br><span class="line">                i += <span class="number">1</span></span><br><span class="line">            i += <span class="number">1</span></span><br><span class="line">            ans += (i - st) // <span class="number">2</span></span><br><span class="line">        <span class="keyword">return</span> ans</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q3-🟡-2958-Length-of-Longest-Subarray-With-at-Most-K-Frequency">Q3. 🟡 <a href="https://leetcode.com/contest/biweekly-contest-119/problems/length-of-longest-subarray-with-at-most-k-frequency/">2958. Length of Longest Subarray With at Most K Frequency</a></h2>
+<h3 id="題意-3">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路：Sliding-window">思路：Sliding window</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">maxSubarrayLength</span>(<span class="params">self, nums: <span class="type">List</span>[<span class="built_in">int</span>], k: <span class="built_in">int</span></span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        n = <span class="built_in">len</span>(nums)</span><br><span class="line">        ans = <span class="number">0</span></span><br><span class="line">        left = <span class="number">0</span></span><br><span class="line">        cnt = Counter()</span><br><span class="line">        <span class="keyword">for</span> idx, num <span class="keyword">in</span> <span class="built_in">enumerate</span>(nums):</span><br><span class="line">            cnt[num] += <span class="number">1</span></span><br><span class="line">            <span class="keyword">while</span> cnt[num] &gt; k:</span><br><span class="line">                cnt[nums[left]] -= <span class="number">1</span></span><br><span class="line">                left += <span class="number">1</span></span><br><span class="line">            ans = <span class="built_in">max</span>(ans, idx - left + <span class="number">1</span>)</span><br><span class="line">        <span class="keyword">return</span> ans</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q4-2959-Number-of-Possible-Sets-of-Closing-Branches">Q4. <a href="https://leetcode.com/contest/biweekly-contest-119/problems/number-of-possible-sets-of-closing-branches/">2959. Number of Possible Sets of Closing Branches</a></h2>
+<h3 id="題意-4">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路：狀態壓縮-Floyd-Warshall">思路：狀態壓縮 + Floyd-Warshall</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">numberOfSets</span>(<span class="params">self, n: <span class="built_in">int</span>, maxDistance: <span class="built_in">int</span>, roads: <span class="type">List</span>[<span class="type">List</span>[<span class="built_in">int</span>]]</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        ans = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> mask <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span> &lt;&lt; n):</span><br><span class="line">            g = [[<span class="built_in">float</span>(<span class="string">&#x27;inf&#x27;</span>)] * n <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(n)]</span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                g[i][i] = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> u, v, w <span class="keyword">in</span> roads:</span><br><span class="line">                <span class="keyword">if</span>(mask &gt;&gt; u) &amp; <span class="number">1</span> <span class="keyword">and</span> (mask &gt;&gt; v) &amp; <span class="number">1</span> <span class="keyword">and</span> w &lt;= maxDistance:</span><br><span class="line">                    g[u][v] = <span class="built_in">min</span>(g[u][v], w)</span><br><span class="line">                    g[v][u] = <span class="built_in">min</span>(g[v][u], w)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                        <span class="keyword">if</span> g[i][k] + g[k][j] &lt; g[i][j]:</span><br><span class="line">                            g[i][j] = g[i][k] + g[k][j]</span><br><span class="line">            flag = <span class="literal">True</span></span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                <span class="keyword">if</span> <span class="keyword">not</span> (mask &gt;&gt; i) &amp; <span class="number">1</span>:</span><br><span class="line">                    <span class="keyword">continue</span></span><br><span class="line">                <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(n):</span><br><span class="line">                    <span class="keyword">if</span> <span class="keyword">not</span> (mask &gt;&gt; j) &amp; <span class="number">1</span>:</span><br><span class="line">                        <span class="keyword">continue</span></span><br><span class="line">                    <span class="keyword">if</span> g[i][j] &gt; maxDistance:</span><br><span class="line">                        flag = <span class="literal">False</span></span><br><span class="line">                        <span class="keyword">break</span></span><br><span class="line">            <span class="keyword">if</span> flag:</span><br><span class="line">                ans += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> ans</span><br></pre></td></tr></table></figure>
+<hr>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Algo</category>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Algo</tag>
+        <tag>Python</tag>
+        <tag>LeetCode</tag>
+        <tag>週賽</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Codeforces Round 913 (Div. 3) A - F (G待補)</title>
     <url>/posts/CF_1907/</url>
     <content><![CDATA[<h1 id="Codeforces-Round-913-Div-3-A-F">Codeforces Round 913 (Div. 3) A - F</h1>
@@ -691,7 +739,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 </blockquote>
 <div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>Q2 有完全相同的題目，Q3的關鍵在可以固定窗口大小，Q4是反元素的運用，總之還是題目寫的不夠多</p>
 </div>
-<div class="note info simple flat"><p>All problems solved by <code>python3</code></p>
+<div class="note info simple flat"><p>All problems solved by <code>python</code></p>
 </div>
 <hr>
 <h2 id="Q1-2951-Find-the-Peaks">Q1. <a href="https://leetcode.com/problems/find-the-peaks/">2951. Find the Peaks</a></h2>
@@ -885,7 +933,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
     <url>/posts/LC_W373/</url>
     <content><![CDATA[<div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>這次40分鐘做出了前三題，Q1沒注意 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 可能 比 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 大吃了一發 <mark class="hl-label red">WA</mark> ；Q2雖然相較Q4的範圍小，但一開始寫得太暴力了吃了 <mark class="hl-label blue">TLE</mark> ；Q3很快想到了用分組討論，直接 <mark class="hl-label green">AC</mark>  了；Q4前兩個關鍵點都想到了，只差用兩個限制條件去做統計了，可惜了。</p>
 </div>
-<div class="note info simple flat"><p>All problems solved by <code>python3</code></p>
+<div class="note info simple flat"><p>All problems solved by <code>python</code></p>
 </div>
 <hr>
 <h2 id="Q1-🟢-2946-Matrix-Similarity-After-Cyclic-Shifts">Q1. 🟢 <a href="https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/">2946. Matrix Similarity After Cyclic Shifts</a></h2>
