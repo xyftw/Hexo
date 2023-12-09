@@ -334,7 +334,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 <p>&lt;++&gt;</p>
 <h3 id="思路-3">思路</h3>
 <p>&lt;++&gt;</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">inorderTraversal</span>(<span class="params">self, root: <span class="type">Optional</span>[TreeNode]</span>) -&gt; <span class="type">List</span>[<span class="built_in">int</span>]:</span><br><span class="line">        ans = []</span><br><span class="line">        <span class="keyword">def</span> <span class="title function_">inorder</span>(<span class="params">root</span>):</span><br><span class="line">            <span class="keyword">if</span> root:</span><br><span class="line">                inorder(root.left)</span><br><span class="line">                ans.append(root.val)</span><br><span class="line">                inorder(root.right)</span><br><span class="line">        inorder(root)</span><br><span class="line">        <span class="keyword">return</span> ans</span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="2023-12-0">2023-12-0</h1>
 <h2 id="🟢🟡🔴-XXXX-swig￼67">🟢🟡🔴 <a href="">XXXX</a> <mark class="hl-label green">rating</mark> </h2>
@@ -685,8 +685,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
   <entry>
     <title>LeetCode Weekly Contest 374 題解</title>
     <url>/posts/LC_W374/</url>
-    <content><![CDATA[<h1 id="LeetCode-Weekly-Contest-374-題解">LeetCode Weekly Contest 374 題解</h1>
-<blockquote>
+    <content><![CDATA[<blockquote>
 <p><img src="https://i.imgur.com/JHtTxhJ.jpeg" alt="image"><br>
 那一天，人類終於回想起了，只寫出1題的絕望</p>
 </blockquote>
@@ -882,6 +881,54 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
       </tags>
   </entry>
   <entry>
+    <title>LeetCode Weekly Contest 373 題解</title>
+    <url>/posts/LC_W373/</url>
+    <content><![CDATA[<div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>這次40分鐘做出了前三題，Q1沒注意 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> 可能 比 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> 大吃了一發 <mark class="hl-label red">WA</mark> ；Q2雖然相較Q4的範圍小，但一開始寫得太暴力了吃了 <mark class="hl-label blue">TLE</mark> ；Q3很快想到了用分組討論，直接 <mark class="hl-label green">AC</mark>  了；Q4前兩個關鍵點都想到了，只差用兩個限制條件去做統計了，可惜了。</p>
+</div>
+<div class="note info simple flat"><p>All problems solved by <code>python3</code></p>
+</div>
+<hr>
+<h2 id="Q1-2946-Matrix-Similarity-After-Cyclic-Shifts">Q1. <a href="https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/">2946. Matrix Similarity After Cyclic Shifts</a></h2>
+<h3 id="題意">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路">思路</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">areSimilar</span>(<span class="params">self, mat: <span class="type">List</span>[<span class="type">List</span>[<span class="built_in">int</span>]], k: <span class="built_in">int</span></span>) -&gt; <span class="built_in">bool</span>:</span><br><span class="line">        m, n = <span class="built_in">len</span>(mat), <span class="built_in">len</span>(mat[<span class="number">0</span>])</span><br><span class="line">        <span class="keyword">if</span> k &gt; n:</span><br><span class="line">            k %= n</span><br><span class="line">        <span class="keyword">for</span> row <span class="keyword">in</span> mat:</span><br><span class="line">            <span class="keyword">if</span> row[-k:] + row[:-k] != row:</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q1">Q1. <a href=""></a></h2>
+<h3 id="題意-2">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路-2">思路</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q1-2">Q1. <a href=""></a></h2>
+<h3 id="題意-3">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路-3">思路</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="Q1-3">Q1. <a href=""></a></h2>
+<h3 id="題意-4">題意</h3>
+<p>&lt;++&gt;</p>
+<h3 id="思路-4">思路</h3>
+<p>&lt;++&gt;</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Algo</category>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Algo</tag>
+        <tag>Python</tag>
+        <tag>LeetCode</tag>
+        <tag>週賽</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【更新中】LeetCode 2023/11 每日一題 (Nov LeetCoding Challenge)</title>
     <url>/posts/LC_23Nov/</url>
     <content><![CDATA[<div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>每日第1題為<mark class="hl-label default">中文站(LCCN)</mark> ，第2題為<mark class="hl-label default">英文站(LCUS)</mark> ，題目連結皆統一為英文站的題目連結。<br>
@@ -1004,7 +1051,7 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
 <li>🟡 <a href="https://leetcode.com/problems/count-collisions-on-a-road/">2211. Count Collisions on a Road</a> <mark class="hl-label orange">1581</mark> </li>
 <li>🟡 <a href="https://leetcode.com/problems/movement-of-robots/">2731. Movement of Robots</a> <mark class="hl-label orange">1923</mark> </li>
 </ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">getLastMoment</span>(<span class="params">self, n: <span class="built_in">int</span>, left: <span class="type">List</span>[<span class="built_in">int</span>], right: <span class="type">List</span>[<span class="built_in">int</span>]</span>) -&gt; <span class="built_in">int</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">max</span>(<span class="built_in">max</span>(left + [<span class="number">0</span>]), n-<span class="built_in">min</span>(right + [n]))</span><br></pre></td></tr></table></figure>
 <hr>
 <h1 id="2023-11">2023-11-</h1>
 <h2 id="🟢🟡🔴-XXXX-swig￼25">🟢🟡🔴 <a href="">XXXX</a> <mark class="hl-label green">rating</mark> </h2>
