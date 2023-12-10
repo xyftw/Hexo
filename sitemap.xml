@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gdst.dev/posts/LC_23Dec/</loc>
+    <loc>https://gdst.dev/posts/LC_W373/</loc>
     
     <lastmod>2023-12-10</lastmod>
     
@@ -13,7 +13,16 @@
   <url>
     <loc>https://gdst.dev/posts/LC_W374/</loc>
     
-    <lastmod>2023-12-09</lastmod>
+    <lastmod>2023-12-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/posts/LC_23Dec/</loc>
+    
+    <lastmod>2023-12-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://gdst.dev/posts/CF_1907/</loc>
-    
-    <lastmod>2023-12-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/posts/LC_W373/</loc>
     
     <lastmod>2023-12-09</lastmod>
     
