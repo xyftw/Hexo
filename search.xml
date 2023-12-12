@@ -35,6 +35,12 @@
 <li>🟢 <a href="https://leetcode.com/problems/transpose-matrix/">867. Transpose Matrix</a></li>
 </ul>
 <h1 id="🔗-2023-12-11-2023-12-20-每日一題-解題紀錄"><a href="/posts/LC_23Dec_p2">🔗 2023/12/11-2023/12/20 每日一題 解題紀錄</a></h1>
+<ul>
+<li>🟡 <a href="https://leetcode.com/problems/path-with-minimum-effort/">1631. Path With Minimum Effort</a> <mark class="hl-label orange">1948</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/">1287. Element Appearing More Than 25% In Sorted Array</a> <mark class="hl-label green">1179</mark> </li>
+<li>🔴 <a href="https://leetcode.com/problems/next-greater-element-iv/">2454. Next Greater Element IV</a> <mark class="hl-label red">2175</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/">1464. Maximum Product of Two Elements in an Array</a> <mark class="hl-label green">1121</mark> </li>
+</ul>
 <h1 id="寫在最後">寫在最後</h1>
 <div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>瞧瞧你發現了什麼？你看，是一串魔法咒語！</p>
 </div>
