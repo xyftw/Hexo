@@ -364,7 +364,7 @@
       </tags>
   </entry>
   <entry>
-    <title>300. Longest Increasing Subsequence (LIS)</title>
+    <title>LeetCode: 300. Longest Increasing Subsequence (LIS)</title>
     <url>/posts/LC_P300/</url>
     <content><![CDATA[<h1 id="🟡-300-Longest-Increasing-Subsequence">🟡 <a href="https://leetcode.com/problems/longest-increasing-subsequence/">300. Longest Increasing Subsequence</a></h1>
 <div class="note green icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>LIS 是研究所考試常見的題目，但參考書提供的考試寫法在實際使用上有一些限制，在這題直接使用會 <mark class="hl-label red">WA</mark>  。在這裡以LeetCode 300. Longest Increasing Subsequence 為例，紀錄了時間複雜度從 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mi>l</mi><mi>o</mi><mi>g</mi><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(nlogn)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mord mathnormal" style="margin-right:0.01968em;">l</span><span class="mord mathnormal">o</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> 的三種解法，並在題目要求外，額外添加了還原 LIS 的過程。</p>
@@ -880,8 +880,8 @@
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>Python</tag>
         <tag>Codeforces</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -989,8 +989,8 @@
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>AtCoder</tag>
         <tag>Python</tag>
+        <tag>AtCoder</tag>
       </tags>
   </entry>
   <entry>
@@ -1096,8 +1096,8 @@
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>Python</tag>
         <tag>Codeforces</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -1670,8 +1670,8 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>Python</tag>
         <tag>Codeforces</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -2060,8 +2060,8 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>AtCoder</tag>
         <tag>Python</tag>
+        <tag>AtCoder</tag>
       </tags>
   </entry>
   <entry>
@@ -2138,8 +2138,8 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
       </categories>
       <tags>
         <tag>Algo</tag>
-        <tag>AtCoder</tag>
         <tag>Python</tag>
+        <tag>AtCoder</tag>
       </tags>
   </entry>
   <entry>

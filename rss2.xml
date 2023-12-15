@@ -9,16 +9,16 @@
     <atom:link href="https://gdst.dev/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>你說的對，但是我孤單刷題。</description>
-    <pubDate>Fri, 15 Dec 2023 08:51:55 GMT</pubDate>
+    <pubDate>Fri, 15 Dec 2023 09:07:37 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>300. Longest Increasing Subsequence (LIS)</title>
+      <title>LeetCode: 300. Longest Increasing Subsequence (LIS)</title>
       <link>https://gdst.dev/posts/LC_P300/</link>
       <guid>https://gdst.dev/posts/LC_P300/</guid>
       <pubDate>Fri, 15 Dec 2023 06:00:00 GMT</pubDate>
       
-      <description>LIS 是研究所考試常見的題目，但參考書提供的考試寫法在實際使用上有一些限制，在這題直接使用會 WA 。在這裡以LeetCode 300. Longest Increasing Subsequence 為例，紀錄了時間複雜度從 O(n^2) 到 O(nlogn) 的三種解法，並在題目要求外，額外添加了還原 LIS 的過程。</description>
+      <description>紀錄了時間複雜度從 O(n^2) 到 O(nlogn) 的三種解法，並在題目要求外，額外添加了還原 LIS 的過程。</description>
       
       
       
@@ -158,9 +158,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/Python/">Python</category>
-      
       <category domain="https://gdst.dev/tags/Codeforces/">Codeforces</category>
+      
+      <category domain="https://gdst.dev/tags/Python/">Python</category>
       
       
       <comments>https://gdst.dev/posts/CF_1907/#disqus_thread</comments>
@@ -191,9 +191,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
-      
       <category domain="https://gdst.dev/tags/Python/">Python</category>
+      
+      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
       
       
       <comments>https://gdst.dev/posts/AT_ABC331/#disqus_thread</comments>
@@ -224,9 +224,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/Python/">Python</category>
-      
       <category domain="https://gdst.dev/tags/Codeforces/">Codeforces</category>
+      
+      <category domain="https://gdst.dev/tags/Python/">Python</category>
       
       
       <comments>https://gdst.dev/posts/CF_1903/#disqus_thread</comments>
@@ -350,9 +350,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/Python/">Python</category>
-      
       <category domain="https://gdst.dev/tags/Codeforces/">Codeforces</category>
+      
+      <category domain="https://gdst.dev/tags/Python/">Python</category>
       
       
       <comments>https://gdst.dev/posts/CF_1899/#disqus_thread</comments>
@@ -472,9 +472,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
-      
       <category domain="https://gdst.dev/tags/Python/">Python</category>
+      
+      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
       
       
       <comments>https://gdst.dev/posts/AT_ABC317/#disqus_thread</comments>
@@ -501,9 +501,9 @@
       
       <category domain="https://gdst.dev/tags/Algo/">Algo</category>
       
-      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
-      
       <category domain="https://gdst.dev/tags/Python/">Python</category>
+      
+      <category domain="https://gdst.dev/tags/AtCoder/">AtCoder</category>
       
       
       <comments>https://gdst.dev/posts/AT_ABC315/#disqus_thread</comments>
