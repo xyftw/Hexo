@@ -1,3 +1,4 @@
+https://gdst.dev/posts/LC_P300/
 https://gdst.dev/posts/LC_23Dec_p2/
 https://gdst.dev/posts/LC_23Dec_p1/
 https://gdst.dev/posts/LC_23Dec/
@@ -24,7 +25,9 @@ https://gdst.dev/tags/Codeforces/
 https://gdst.dev/tags/LeetCode/
 https://gdst.dev/tags/%E9%80%B1%E8%B3%BD/
 https://gdst.dev/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C/
+https://gdst.dev/tags/graduate/
 https://gdst.dev/categories/Algo/
 https://gdst.dev/categories/Algo/Codeforces/
 https://gdst.dev/categories/Algo/AtCoder/
 https://gdst.dev/categories/Algo/LeetCode/
+https://gdst.dev/categories/Algo/graduate/
