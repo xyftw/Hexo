@@ -9,7 +9,7 @@
 </div>
 <div class="note purple icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>由於文章內容過多，為了方便閱讀，將每日一題分為三個部分，每個部分各包含10-11天的題目，也就是20-22題。本篇文章只列出文章連結和題目清單，若要觀看詳細解題紀錄，請點擊文章連結。</p>
 </div>
-<ol><li><a href="/posts/LC_23Dec_p1/" title="LeetCode 2023/12/01-2023/12/10 每日一題">LeetCode 2023/12/01-2023/12/10 每日一題</a></li><li><a href="/posts/LC_23Dec_p2/" title="LeetCode 2023/12/11-2023/12/20 每日一題">LeetCode 2023/12/11-2023/12/20 每日一題</a></li></ol>
+<ol><li><a href="/posts/LC_23Dec_p2/" title="LeetCode 2023/12/11-2023/12/20 每日一題">LeetCode 2023/12/11-2023/12/20 每日一題</a></li></ol>
 <hr>
 <h1 id="🔗-2023-12-01-2023-12-10-每日一題-解題紀錄"><a href="/posts/LC_23Dec_p1">🔗 2023/12/01-2023/12/10 每日一題 解題紀錄</a></h1>
 <ul>
@@ -42,6 +42,14 @@
 <li>🟢 <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/">1464. Maximum Product of Two Elements in an Array</a> <mark class="hl-label green">1121</mark> </li>
 <li>🟢 <a href="https://leetcode.com/problems/lexicographically-smallest-palindrome/">2697. Lexicographically Smallest Palindrome</a> <mark class="hl-label green">1304</mark> </li>
 <li>🟢 <a href="https://leetcode.com/problems/special-positions-in-a-binary-matrix/">1582. Special Positions in a Binary Matrix</a> <mark class="hl-label green">1321</mark> </li>
+<li>🔴 <a href="https://leetcode.com/problems/stamping-the-grid/">2132. Stamping the Grid</a> <mark class="hl-label red">2364</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/">2482. Difference Between Ones and Zeros in Row and Column</a> <mark class="hl-label orange">1373</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/">2415. Reverse Odd Levels of Binary Tree</a> <mark class="hl-label orange">1431</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/destination-city/">1436. Destination City</a> <mark class="hl-label green">1192</mark> </li>
+<li>🔴 <a href="https://leetcode.com/problems/count-integers-in-intervals/">2276. Count Integers in Intervals</a> <mark class="hl-label red">2222</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/valid-anagram/">242. Valid Anagram</a></li>
+<li>🟢 <a href="https://leetcode.com/problems/min-cost-climbing-stairs/">746. Min Cost Climbing Stairs</a> <mark class="hl-label green">1358</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/design-a-food-rating-system/">2353. Design a Food Rating System</a> <mark class="hl-label orange">1782</mark> </li>
 </ul>
 <h1 id="寫在最後">寫在最後</h1>
 <div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>瞧瞧你發現了什麼？你看，是一串魔法咒語！</p>
@@ -453,7 +461,7 @@
 <li><code>void changeRating(String food, int newRating)</code> 修改名字為 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>o</mi><mi>o</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">food</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mord mathnormal">oo</span><span class="mord mathnormal">d</span></span></span></span> 的食物的評分為 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mi>e</mi><mi>w</mi><mi>R</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>n</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">newRating</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">n</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.00773em;">wR</span><span class="mord mathnormal">a</span><span class="mord mathnormal">t</span><span class="mord mathnormal">in</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span> 。</li>
 <li><code>String highestRated(String cuisine)</code> 傳回指定烹調方式 <code>cuisine</code> 下評分最高的食物的名字。 如果存在並列，則傳回 <mark class="hl-label pink">字典序較小</mark>  的食物名字。</li>
 </ul>
-<h3 id="思路：雜湊表-有序集合-懶刪除堆">思路：雜湊表 + 有序集合 / 懶刪除堆</h3>
+<h3 id="思路：雜湊表-有序集合-懶刪除堆">思路：雜湊表 + 有序集合/懶刪除堆</h3>
 <h4 id="方法一：雜湊表-有序集合">方法一：雜湊表 + 有序集合</h4>
 <ul>
 <li>使用雜湊表 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">fd</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">fd</span></span></span></span> 來紀錄食物的評分和所屬烹調方式，雜湊表 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">cs</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">cs</span></span></span></span> 來紀錄烹調方式下所屬的食物和評分，並使用有序集合來維護。</li>
