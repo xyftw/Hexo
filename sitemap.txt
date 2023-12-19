@@ -1,7 +1,7 @@
-https://gdst.dev/gallery/ina/index.html
 https://gdst.dev/gallery/index.html
-https://gdst.dev/gallery/kaguya/index.html
 https://gdst.dev/gallery/bocchi/index.html
+https://gdst.dev/gallery/ina/index.html
+https://gdst.dev/gallery/kaguya/index.html
 https://gdst.dev/posts/LC_23Dec_p2/
 https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_23Dec_p1/
