@@ -58,6 +58,15 @@
 <li>🟢 <a href="https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/">2828. Check if a String Is an Acronym of Words</a> <mark class="hl-label green">1152</mark> </li>
 </ul>
 <h1 id="🔗-2023-12-21-2023-12-31-每日一題-解題紀錄"><a href="/posts/LC_23Dec_p3">🔗 2023/12/21-2023/12/31 每日一題 解題紀錄</a></h1>
+<ul>
+<li>🟡 <a href="https://leetcode.com/problems/beautiful-towers-ii/">2866. Beautiful Towers II</a> <mark class="hl-label orange">2072</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/">1637. Widest Vertical Area Between Two Points Containing No Points</a> <mark class="hl-label orange">1487</mark> </li>
+<li>🔴 <a href="https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/">1671. Minimum Number of Removals to Make Mountain Array</a> <mark class="hl-label red">1913</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">1422. Maximum Score After Splitting a String</a> <mark class="hl-label green">1238</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/remove-stones-to-minimize-the-total/">1962. Remove Stones to Minimize the Total</a> <mark class="hl-label orange">1419</mark> </li>
+<li>🟢 <a href="https://leetcode.com/problems/path-crossing/">1496. Path Crossing</a> <mark class="hl-label green">1508</mark> </li>
+<li>🟡 <a href="https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/">1954. Minimum Garden Perimeter to Collect Enough Apples</a> <mark class="hl-label orange">1759</mark> </li>
+</ul>
 <h1 id="寫在最後">寫在最後</h1>
 <div class="note icon-padding flat"><i class="note-icon fa-solid fa-wand-magic-sparkles"></i><p>瞧瞧你發現了什麼？你看，是一串魔法咒語！</p>
 </div>
