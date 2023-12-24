@@ -388,7 +388,7 @@
       </tags>
   </entry>
   <entry>
-    <title>【待更新】 LeetCode Weekly Contest 377 解題紀錄</title>
+    <title>【說明待補】 LeetCode Weekly Contest 377 解題紀錄</title>
     <url>/posts/LC_W377/</url>
     <content><![CDATA[<div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>難得的大爆發，雖然排名會合LCCN合併，但只看LCUS的排名的話，也算是進前百了。Q3因為一個小失誤吃了 <mark class="hl-label red">WA</mark>  ， Q4一直影響不大的地方嘗試優化，結果一直 <mark class="hl-label blue">TLE</mark>  。如果能冷靜點，少吃點罰時，就真的是前百了。</p>
 </div>
@@ -436,7 +436,7 @@
       </tags>
   </entry>
   <entry>
-    <title>【待更新】 LeetCode Biweekly Contest 120 解題紀錄</title>
+    <title>【說明待補】 LeetCode Biweekly Contest 120 解題紀錄</title>
     <url>/posts/LC_B120/</url>
     <content><![CDATA[<div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i></div>
 <div class="note info simple flat"><p>All problems solved by <code>python</code></p>
