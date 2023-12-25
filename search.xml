@@ -449,7 +449,7 @@
       </tags>
   </entry>
   <entry>
-    <title>【說明待補】 LeetCode Weekly Contest 377 解題紀錄</title>
+    <title>LeetCode Weekly Contest 377 解題紀錄</title>
     <url>/posts/LC_W377/</url>
     <content><![CDATA[<p><img src="//2023/12/LC_Weekly377.png" alt=""></p>
 <div class="note purple icon-padding flat"><i class="note-icon fa-solid fa-note-sticky"></i><p>難得的大爆發，雖然排名會和<mark class="hl-label default">中文站(LCCN)</mark> 合併，但只看<mark class="hl-label default">英文站(LCUS)</mark> 的排名的話，也算是進前百了。Q3因為一個小失誤吃了 <mark class="hl-label red">WA</mark>  ， Q4一直影響不大的地方嘗試優化，結果一直 <mark class="hl-label blue">TLE</mark>  。如果能冷靜點，少吃點罰時，就真的是前百了。</p>

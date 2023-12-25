@@ -9,11 +9,11 @@
     <atom:link href="https://gdst.dev/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>你說的對，但是我孤單刷題。</description>
-    <pubDate>Mon, 25 Dec 2023 03:57:35 GMT</pubDate>
+    <pubDate>Mon, 25 Dec 2023 04:00:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>【說明待補】 LeetCode Weekly Contest 377 解題紀錄</title>
+      <title>LeetCode Weekly Contest 377 解題紀錄</title>
       <link>https://gdst.dev/posts/LC_W377/</link>
       <guid>https://gdst.dev/posts/LC_W377/</guid>
       <pubDate>Sun, 24 Dec 2023 04:26:00 GMT</pubDate>
