@@ -296,77 +296,7 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/graduate/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Algo-LeetCode/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://gdst.dev/tags/%E5%91%A8%E8%B3%BD/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%91-Shortest-Path/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Floyd-Warshall/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83-Dynamic-Programming/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Shortest-Path/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Dynamic-Programming/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/DP/</loc>
-    <lastmod>2023-12-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://gdst.dev/tags/Greedy/</loc>
     <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -387,7 +317,28 @@
   </url>
   
   <url>
-    <loc>https://gdst.dev/tags/LeetCode%E5%91%A8%E8%B3%BD/</loc>
+    <loc>https://gdst.dev/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A1%8C/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/graduate/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/Floyd-Warshall/</loc>
+    <lastmod>2023-12-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://gdst.dev/tags/DP/</loc>
     <lastmod>2023-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
