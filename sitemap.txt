@@ -1,3 +1,6 @@
+https://gdst.dev/posts/LC_23Dec_p3/
+https://gdst.dev/categories/index.html
+https://gdst.dev/tags/index.html
 https://gdst.dev/posts/LC_W377/
 https://gdst.dev/posts/LC_B118/
 https://gdst.dev/posts/LC_B119/
@@ -7,7 +10,6 @@ https://gdst.dev/posts/LC_W374/
 https://gdst.dev/posts/LC_W373/
 https://gdst.dev/posts/LC_B120/
 https://gdst.dev/posts/LC_23Dec/
-https://gdst.dev/posts/LC_23Dec_p3/
 https://gdst.dev/gallery/bocchi/index.html
 https://gdst.dev/gallery/ina/index.html
 https://gdst.dev/gallery/kaguya/index.html
@@ -22,8 +24,6 @@ https://gdst.dev/posts/AT_ABC315/
 https://gdst.dev/posts/CF_1903/
 https://gdst.dev/posts/CF_1899/
 https://gdst.dev/posts/CF_1907/
-https://gdst.dev/categories/index.html
-https://gdst.dev/tags/index.html
 https://gdst.dev/posts/hello-world/
 https://gdst.dev/
 https://gdst.dev/tags/Algo/
