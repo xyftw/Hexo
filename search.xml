@@ -1099,9 +1099,9 @@
         <tag>Python</tag>
         <tag>LeetCode</tag>
         <tag>周賽</tag>
-        <tag>前綴和(Prefix Sum)</tag>
         <tag>滑動窗口(Sliding Window)</tag>
         <tag>中位數貪心</tag>
+        <tag>前綴和(Prefix Sum)</tag>
       </tags>
   </entry>
   <entry>
@@ -2019,8 +2019,8 @@ return [i, j]</p></div></div><div class="tab-to-top"><button type="button" aria-
         <tag>Python</tag>
         <tag>LeetCode</tag>
         <tag>周賽</tag>
-        <tag>滑動窗口(Sliding Window)</tag>
         <tag>區間合併</tag>
+        <tag>滑動窗口(Sliding Window)</tag>
       </tags>
   </entry>
   <entry>
@@ -2618,8 +2618,8 @@ return [i, j]</p></div></div><div class="tab-to-top"><button type="button" aria-
         <tag>Python</tag>
         <tag>LeetCode</tag>
         <tag>周賽</tag>
-        <tag>分組循環</tag>
         <tag>滑動窗口(Sliding Window)</tag>
+        <tag>分組循環</tag>
         <tag>組合數學(Combinatorics)</tag>
         <tag>乘法反元素(Inverse Element)</tag>
       </tags>
@@ -3192,9 +3192,9 @@ dp[i][1] = cnt_i * price_i // 2 + \sum_{v \isin adj(i)} dp[v][0] \\
         <tag>Python</tag>
         <tag>LeetCode</tag>
         <tag>周賽</tag>
+        <tag>前綴和(Prefix Sum)</tag>
         <tag>分組循環</tag>
         <tag>質因數分解</tag>
-        <tag>前綴和(Prefix Sum)</tag>
         <tag>雜湊表(Hash Table)</tag>
       </tags>
   </entry>
