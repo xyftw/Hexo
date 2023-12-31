@@ -1,4 +1,5 @@
 https://gdst.dev/posts/LC_23Dec_p3/
+https://gdst.dev/posts/LC_23Dec/
 https://gdst.dev/gallery/pekora/index.html
 https://gdst.dev/gallery/index.html
 https://gdst.dev/gallery/ina/index.html
@@ -15,7 +16,6 @@ https://gdst.dev/posts/LC_W376/
 https://gdst.dev/posts/LC_W375/
 https://gdst.dev/posts/LC_W373/
 https://gdst.dev/posts/LC_B120/
-https://gdst.dev/posts/LC_23Dec/
 https://gdst.dev/gallery/bocchi/index.html
 https://gdst.dev/posts/LC_P300/
 https://gdst.dev/posts/LC_23Dec_p2/
